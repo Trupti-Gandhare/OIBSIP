@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Baloo Bhai', cursive;
+  background: linear-gradient(30deg, #0F1035, #DCF2F1, #365486);
+  text-align: center;
+  margin: 50px;
+}
+
+#converter {
+  border: 2px solid #2D3250;
+  max-width: 400px;
+  margin: 0 auto;
+  background: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px #424769;
+}
+
+label {
+  font-size: large;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #EEF5FF;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: 'Baloo Bhai', cursive;
+  border: 2px solid #2D3250;
+}
+
+button {
+  background-color: #092635;
+  font-family: 'Baloo Bhai', cursive;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #31304D;
+}
+
+#result {
+  margin-top: 20px;
+}
